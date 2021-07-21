@@ -1,11 +1,11 @@
-package com.api_catalago_livros.service;
+package com.api_catalogo_livros.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.api_catalago_livros.model.Usuario;
-import com.api_catalago_livros.repository.UsuarioRepository;
+import com.api_catalogo_livros.model.Usuario;
+import com.api_catalogo_livros.repository.UsuarioRepository;
 
 public class UsuarioService {
 	

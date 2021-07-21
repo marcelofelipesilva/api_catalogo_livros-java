@@ -1,4 +1,4 @@
-package com.api_catalago_livros.model;
+package com.api_catalogo_livros.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

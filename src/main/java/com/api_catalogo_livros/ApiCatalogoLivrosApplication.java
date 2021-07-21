@@ -1,13 +1,13 @@
-package com.api_catalago_livros;
+package com.api_catalogo_livros;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiCatalagoLivrosApplication {
+public class ApiCatalogoLivrosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiCatalagoLivrosApplication.class, args);
+		SpringApplication.run(ApiCatalogoLivrosApplication.class, args);
 	}
 
 }

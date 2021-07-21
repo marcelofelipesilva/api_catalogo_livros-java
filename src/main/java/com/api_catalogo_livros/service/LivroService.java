@@ -1,4 +1,4 @@
-package com.api_catalago_livros.service;
+package com.api_catalogo_livros.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api_catalago_livros.repository.LivroRepository;
-import com.api_catalago_livros.model.*;
+import com.api_catalogo_livros.model.*;
+import com.api_catalogo_livros.repository.LivroRepository;
 
 @Service
 @Transactional

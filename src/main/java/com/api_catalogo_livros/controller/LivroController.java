@@ -1,4 +1,4 @@
-package com.api_catalago_livros.controller;
+package com.api_catalogo_livros.controller;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api_catalago_livros.repository.LivroRepository;
-import com.api_catalago_livros.model.Livro;
+import com.api_catalogo_livros.model.Livro;
+import com.api_catalogo_livros.repository.LivroRepository;
 
 @RestController("/livro")
 public class LivroController {

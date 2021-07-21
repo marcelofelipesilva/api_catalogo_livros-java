@@ -14,7 +14,7 @@
 - mysql na versão 8.
 
 
-Inserir endereço  ip do servidor Mysql e login e senha de acesso ao banco de dados no arquivo application.properties 
+Inserir endereço ip do servidor Mysql e login e senha de acesso ao banco de dados no arquivo application.properties 
 
 
-link swagger alicação rodando http://localhost:8080//swagger-ui.html
+link swagger aplicação rodando http://localhost:8080//swagger-ui.html

@@ -21,8 +21,12 @@ import com.api_catalogo_livros.repository.UsuarioRepository;
 @RestController("/usuario")
 public class UsuarioController {
 
-	@Autowired // acionando a fabrica
+
 	private UsuarioRepository _usuarioRepository;
+
+	public UsuarioController(UsuarioRepository _usuarioRepository) {
+		this._usuarioRepository = _usuarioRepository;
+	}
 
 	@GetMapping(value = "/usuario", produces = "application/json")
 	public List<Usuario> Exibir_Usuarios() {

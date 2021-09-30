@@ -20,8 +20,12 @@ import com.api_catalogo_livros.repository.LivroRepository;
 @RestController("/livro")
 public class LivroController {
 
-	@Autowired 
+
 	private LivroRepository _livroRepository;
+
+	public LivroController(LivroRepository _livroRepository) {
+		this._livroRepository = _livroRepository;
+	}
 
 	@GetMapping(value = "/livro", produces = "application/json")
 	public List<Livro> Exibir_Livros() {

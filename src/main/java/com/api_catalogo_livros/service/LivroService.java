@@ -14,9 +14,13 @@ import com.api_catalogo_livros.repository.LivroRepository;
 @Transactional
 public class LivroService {
 	
-	@Autowired
+
 	private LivroRepository livro;
-	
+
+	public LivroService(LivroRepository livro) {
+		this.livro = livro;
+	}
+
 	public List<Livro> findAll() {
 		return livro.findAll();
 	}
